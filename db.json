@@ -1,0 +1,47 @@
+{
+  "employee": [
+    {
+      "id": "1",
+      "name": "Daniel DANG",
+      "email": "ddang-1234@eit.ac.nz",
+      "phone": "06-869-1462"
+    },
+    {
+      "id": "2",
+      "name": "Noor Alani",
+      "email": "nalani@eit.ac.nz",
+      "phone": "06-869-1463",
+      "active": true
+    },
+    {
+      "id": "3",
+      "name": "Ian Purdon",
+      "email": "ipurdon@eit.ac.nz",
+      "phone": "06-869-1464",
+      "active": true
+    },
+    {
+      "id": "4",
+      "name": "Oliver Huang",
+      "email": "ohuang@eit.ac.nz",
+      "phone": "06-869-1465",
+      "active": false
+    },
+    {
+      "id": "5",
+      "name": "John Jamieson",
+      "email": "jjamaieson@eit.ac.nz",
+      "phone": "06-869-1466",
+      "active": true
+    } ],
+
+    "users": [
+      { "id": 1, "name": "Alice", "email": "alice@example.com" },
+      { "id": 2, "name": "Bob", "email": "bob@example.com" }
+    ],
+    "products": [
+        { "id": 101, "name": "Laptop", "price": 1200 },
+        { "id": 102, "name": "Mouse", "price": 25 }
+    ]
+
+}
