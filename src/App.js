@@ -4,7 +4,7 @@ import Navbar from './my-components/Navbar';
 import Main from './my-components/Main';
 import Footer from './my-components/Footer';
 import React from 'react';
-import {HashRouter as HashRouter, Routes, Route } from 'react-router-dom';
+import {HashRouter, Routes, Route } from 'react-router-dom';
 import EmployeeManager from './my-components/employees-manager/EmployeeManager';
 import EmployeeCreate from './my-components/employees-manager/EmployeeCreate';
 import EmployeeDetail from './my-components/employees-manager/EmployeeDetail';

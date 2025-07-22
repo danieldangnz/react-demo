@@ -49,7 +49,7 @@ const EmployeeCreate = () => {
                       <div className="col-lg-12">
                         <div className="form-group" style={{display: 'none'}}>
                             <label>ID</label>
-                            <input disabled="disabled" className="form-control" value={id}/>
+                            <input disabled="disabled" className="form-control" value={id} onChange={e=>setName(e.target.value)}  />
                         </div>
                       </div>
                       {/*Name input */}
