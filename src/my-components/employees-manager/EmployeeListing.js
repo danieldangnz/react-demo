@@ -77,12 +77,12 @@ const EmployeeListing = () => {
                                         <td>{employee.email}</td>
                                         <td>{employee.phone}</td>
                                         <td>
-                                            <a className="btn btn-success"
-                                                onClick={() => loadEdit(employee.id)} >EDIT</a>
-                                            <a className="btn btn-danger"
-                                                onClick={() => removeEmployee(employee.id)} >REMOVE</a>
-                                            <a className="btn btn-primary"
-                                                onClick={() => loadDetail(employee.id)} >DETAIL</a>
+                                            <button className="btn btn-success"
+                                                onClick={() => loadEdit(employee.id)} >EDIT</button>
+                                            <button className="btn btn-danger"
+                                                onClick={() => removeEmployee(employee.id)} >REMOVE</button>
+                                            <button className="btn btn-primary"
+                                                onClick={() => loadDetail(employee.id)} >DETAIL</button>
                                         </td>
                                     </tr>
                                 ))
