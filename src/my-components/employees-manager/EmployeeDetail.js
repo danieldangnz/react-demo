@@ -17,7 +17,7 @@ const EmployeeDetail = () => {
             console.log(res);
         })
         .catch( (error) => {console.log(error.message)} );
-    }, []);
+    }, [employeeID]);
 
     //UI
     return(

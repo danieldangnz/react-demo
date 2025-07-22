@@ -6,14 +6,14 @@ function AutoSlideshow() {
         {id: 1, title: "The Godfather ", year: 1972, image_url: require('./Images/movie1.jpg')},
         {id: 2, title: "The Dark Knight", year: 2008, image_url: require('./Images/movie2.jpg')},
         {id: 3, title: "12 Angry Men", year: 1957, image_url: require('./Images/movie3.jpg')},
-        {id: 4, title: " Schindler\'s List", year: 1993, image_url: require('./Images/movie4.jpg')},
+        {id: 4, title: " Schindler's List", year: 1993, image_url: require('./Images/movie4.jpg')},
        ];
     //Declare state "index" and the hook useState()
     const [index, setIndex] = useState(0);
     //Use useEffect() hook to create a Timer
     useEffect(() => {
         setTimeout(() => {
-            (index == topMovies.length - 1) ?  setIndex(0) : setIndex(index + 1);
+            (index === topMovies.length - 1) ?  setIndex(0) : setIndex(index + 1);
         }, 1000);
     });
     //UI

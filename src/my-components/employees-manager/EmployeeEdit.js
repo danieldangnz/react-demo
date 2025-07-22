@@ -25,7 +25,7 @@ const EmployeeEdit = () => {
         }).catch((err) => {
             console.log(err.message);
         })
-    }, []);
+    }, [employeeID]);
 
     const navigate=useNavigate();
 
@@ -71,7 +71,7 @@ const EmployeeEdit = () => {
                         <label>Name</label>
                         <input required value={name} onMouseDown={e=>valchange(true)} 
                                 onChange={e=>setName(e.target.value)} className="form-control" />
-                        {name.length==0 && validation && <span className="text-danger">Enter name</span>}
+                        {name.length===0 && validation && <span className="text-danger">Enter name</span>}
                     </div>
                 </div>
 

@@ -58,7 +58,7 @@ const EmployeeCreate = () => {
                           <label>Name</label>
                           <input className="form-control" value={name} onChange={e=>setName(e.target.value)} required 
                                  onMouseDown={ e=>setValidation(true) } />
-                          {name.length==0 && validation && <span className="text-danger">Enter the name</span>}
+                          {name.length===0 && validation && <span className="text-danger">Enter the name</span>}
                         </div>
                       </div>
                       {/*Email input */}
@@ -67,7 +67,7 @@ const EmployeeCreate = () => {
                           <label>Email</label>
                           <input className="form-control" value={email} onChange={e=>setEmail(e.target.value)} required 
                                   onMouseDown={ e=>setValidation(true) } />
-                          {email.length==0 && validation && <span className="text-danger">Enter the email</span>}
+                          {email.length===0 && validation && <span className="text-danger">Enter the email</span>}
                         </div>
                       </div>
                       {/*Phone input */}
@@ -76,7 +76,7 @@ const EmployeeCreate = () => {
                           <label>Phone</label>
                           <input className="form-control" value={phone} onChange={e=>setPhone(e.target.value)} required 
                                  onMouseDown={ e=>setValidation(true) } />
-                          {phone.length==0 && validation && <span className="text-danger">Enter the phone</span>}       
+                          {phone.length===0 && validation && <span className="text-danger">Enter the phone</span>}       
                         </div>
                       </div>
                       {/*Checkbox input */}
